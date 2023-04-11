@@ -250,10 +250,10 @@ export default () => {
             rows="1"
             class="gen-textarea"
           />
-          <button onClick={handleButtonClick} disabled={systemRoleEditing()} gen-slate-btn>
-            Send
+          <button onClick={handleButtonClick} disabled={systemRoleEditing()} gen-slate-btn style="width:80px;">
+            发送
           </button>
-          <button title="Clear" onClick={clear} disabled={systemRoleEditing()} gen-slate-btn>
+          <button title="清空会话" onClick={clear} disabled={systemRoleEditing()} gen-slate-btn>
             <IconClear />
           </button>
         </div>
